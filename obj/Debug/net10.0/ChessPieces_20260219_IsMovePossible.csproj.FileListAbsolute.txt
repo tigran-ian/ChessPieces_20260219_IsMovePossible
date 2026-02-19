@@ -12,3 +12,4 @@ D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Deb
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.pdb
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.genruntimeconfig.cache
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ref\ChessPieces_20260219_IsMovePossible.dll
+D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.sourcelink.json
