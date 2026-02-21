@@ -7,13 +7,23 @@
 //կարող է գնալ։
 //Ունենալ նաև Console Project որտեղ կկատարվեն ներմուծելու և տպելու գործառույթները։
 
-
-
 Board board = new Board();
-board.coords = new Board.Coords(3, (byte)Board.vFiles.E);
 
+Console.WriteLine("Please enter starting coordinates: ");
+string startPosCoords = Console.ReadLine();
 
-Console.WriteLine($"X is: {board.coords.X}");
-Console.WriteLine($"Y is: {board.coords.Y}");
+var startX = (int)Enum.Parse<Board.VerticalF>(startPosCoords[0].ToString());
+
+string startYTxt = startPosCoords[1].ToString();
+
+bool isNum = int.TryParse(startYTxt, out int startY);
+
+if(isNum)
+    board.coords = new Board.Coords(startX, startY);
+else
+    Console.WriteLine("Please enter valid coordinates");
+
+Console.WriteLine($"X is: {startX}");
+Console.WriteLine($"Y is: {startY}");
 
 //Console.WriteLine($"{(byte)Board.vFiles.E}");

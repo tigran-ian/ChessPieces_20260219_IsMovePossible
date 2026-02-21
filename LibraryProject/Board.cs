@@ -6,7 +6,7 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
     public class Board
     {
-        public enum vFiles {A, B, C, D, E, F, G, H }
+        public enum VerticalF {A = 0, B = 1, C = 2, D = 3, E = 4, F = 5, G = 6, H = 7 }
         public enum pieceColors
         {
             White,
