@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{869E1AC8-5B15-4FDC-8BCD-BA35A667C1DA}|ChessPieces_20260219_IsMovePossible.csproj|d:\\full stack .net development\\chess\\chesspieces_20260219_ismovepossible\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{869E1AC8-5B15-4FDC-8BCD-BA35A667C1DA}|ChessPieces_20260219_IsMovePossible.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B83EA0B-DA7B-D8C6-96C6-CBEE928C4907}|ChessPieces_20260219_IsMovePossible.csproj|d:\\full stack .net development\\chess\\chesspieces_20260219_ismovepossible\\libraryproject\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B83EA0B-DA7B-D8C6-96C6-CBEE928C4907}|ChessPieces_20260219_IsMovePossible.csproj|solutionrelative:libraryproject\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B83EA0B-DA7B-D8C6-96C6-CBEE928C4907}|ChessPieces_20260219_IsMovePossible.csproj|d:\\full stack .net development\\chess\\chesspieces_20260219_ismovepossible\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B83EA0B-DA7B-D8C6-96C6-CBEE928C4907}|ChessPieces_20260219_IsMovePossible.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\LibraryProject\\Board.cs",
+              "RelativeDocumentMoniker": "LibraryProject\\Board.cs",
+              "ToolTip": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\LibraryProject\\Board.cs",
+              "RelativeToolTip": "LibraryProject\\Board.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:33:30.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T09:47:24.846Z",
               "EditorCaption": ""

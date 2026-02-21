@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ChessPieces_20260219_IsMovePossible.LibraryProject;
 
 //Ունենալ Library Project որտեղ սահմանված կլինեն շախմատին վերաբերվող ապստրակցիները՝
 //Coordinate, Board, Folder որտեղ խաղաքարերը կլինեն և նրանք կունենան մեթոդներ
@@ -8,3 +7,13 @@ Console.WriteLine("Hello, World!");
 //կարող է գնալ։
 //Ունենալ նաև Console Project որտեղ կկատարվեն ներմուծելու և տպելու գործառույթները։
 
+
+
+Board board = new Board();
+board.coords = new Board.Coords(3, (byte)Board.vFiles.E);
+
+
+Console.WriteLine($"X is: {board.coords.X}");
+Console.WriteLine($"Y is: {board.coords.Y}");
+
+//Console.WriteLine($"{(byte)Board.vFiles.E}");

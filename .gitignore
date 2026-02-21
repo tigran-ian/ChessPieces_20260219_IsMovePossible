@@ -1,0 +1,33 @@
+# Ignore build outputs
+/bin/
+/obj/
+
+# VS workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Debug
+*.log
+
+# NuGet
+*.nupkg
+
+# Database
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Copilot indices and caches
+**/CopilotIndices/
+**/*.db
