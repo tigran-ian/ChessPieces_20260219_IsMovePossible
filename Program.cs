@@ -10,20 +10,26 @@
 Board board = new Board();
 
 Console.WriteLine("Please enter starting coordinates: ");
-string startPosCoords = Console.ReadLine();
+EnterCoordinates(out string startPosCoords, out int startX, out int startY);
 
-var startX = (int)Enum.Parse<Board.VerticalF>(startPosCoords[0].ToString());
+Console.WriteLine("Please enter target coordinates: ");
+EnterCoordinates(out string finishPosCoords, out int finishX, out int finishY);
 
-string startYTxt = startPosCoords[1].ToString();
+board.coords = new Board.Coords(startX, startY, finishX, finishY);
 
-bool isNum = int.TryParse(startYTxt, out int startY);
+Console.WriteLine($"Starting X is: {board.coords.sX}");
+Console.WriteLine($"Starting Y is: {board.coords.sY}");
 
-if(isNum)
-    board.coords = new Board.Coords(startX, startY);
-else
-    Console.WriteLine("Please enter valid coordinates");
+Console.WriteLine($"Finishing X is: {board.coords.fX}");
+Console.WriteLine($"Finishing Y is: {board.coords.fY}");
 
-Console.WriteLine($"X is: {startX}");
-Console.WriteLine($"Y is: {startY}");
+void EnterCoordinates(out string coords,out int x, out int y)
+{
+    coords = Console.ReadLine();
+
+    y = (int)Enum.Parse<Board.VerticalF>(coords[0].ToString());
+    bool isNum = int.TryParse(coords[1].ToString(), out x);
+    x -= 1;
+}
 
 //Console.WriteLine($"{(byte)Board.vFiles.E}");

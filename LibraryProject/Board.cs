@@ -15,13 +15,18 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 
         public struct Coords
         {
-            public int X;
-            public int Y;
+            public int sX;
+            public int sY;
+            public int fX;
+            public int fY;
 
-            public Coords(int x, int y)
+            public Coords(int x1, int y1, int x2, int y2)
             {
-                X = x;
-                Y = y;
+                sX = x1;
+                sY = y1;
+
+                fX = x2;
+                fY = y2;
             }
         }
 
