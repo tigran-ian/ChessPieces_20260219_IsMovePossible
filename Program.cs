@@ -8,7 +8,7 @@
 //Ունենալ նաև Console Project որտեղ կկատարվեն ներմուծելու և տպելու գործառույթները։
 
 Board board = new Board();
-King king = new King();
+
 
 Console.WriteLine("Please enter starting coordinates: ");
 EnterCoordinates(out string startPosCoords, out int startX, out int startY);
@@ -16,6 +16,7 @@ EnterCoordinates(out string startPosCoords, out int startX, out int startY);
 Console.WriteLine("Please enter target coordinates: ");
 EnterCoordinates(out string finishPosCoords, out int finishX, out int finishY);
 
+King king = new King();
 King.Coords startCoord = new King.Coords(startX, startY);
 King.Coords finishCoord = new King.Coords(finishX, finishY);
 
@@ -34,6 +35,10 @@ void EnterCoordinates(out string coords,out int x, out int y)
     x -= 1;
 }
 
-king.IsMovePossible(startCoord, finishCoord);
+bool canMove = king.IsMovePossible(startCoord, finishCoord);
+if (canMove)
+    Console.WriteLine("Yes");
+else
+    Console.WriteLine("No");
 
 //Console.WriteLine($"{(byte)Board.vFiles.E}");
