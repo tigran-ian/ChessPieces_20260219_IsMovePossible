@@ -8,34 +8,29 @@
 //Ունենալ նաև Console Project որտեղ կկատարվեն ներմուծելու և տպելու գործառույթները։
 
 Board board = new Board();
-
+Console.WriteLine("Please enter piece name: ");
+string name = Console.ReadLine();
 
 Console.WriteLine("Please enter starting coordinates: ");
-EnterCoordinates(out string startPosCoords, out int startX, out int startY);
+board.EnterCoordinates(out string startPosCoords, out int startX, out int startY);
 
 Console.WriteLine("Please enter target coordinates: ");
-EnterCoordinates(out string finishPosCoords, out int finishX, out int finishY);
+board.EnterCoordinates(out string finishPosCoords, out int finishX, out int finishY);
 
-King king = new King();
-King.Coords startCoord = new King.Coords(startX, startY);
-King.Coords finishCoord = new King.Coords(finishX, finishY);
+King king = new King(name);
+Queen queen = new Queen();
 
-//Console.WriteLine($"Starting X is: {startX}");
-//Console.WriteLine($"Starting Y is: {startY}");
+king.PrintName(name);
 
-//Console.WriteLine($"Finishing X is: {finishX}");
-//Console.WriteLine($"Finishing Y is: {finishY}");
+//King.Coords startCoord = new King.Coords(startX, startY);
+//King.Coords finishCoord = new King.Coords(finishX, finishY);
 
-void EnterCoordinates(out string coords,out int x, out int y)
-{
-    coords = Console.ReadLine();
+Queen.Coords startCoord = new Queen.Coords(startX, startY);
+Queen.Coords finishCoord = new Queen.Coords(finishX, finishY);
 
-    y = (int)Enum.Parse<Board.VerticalF>(coords[0].ToString());
-    bool isNum = int.TryParse(coords[1].ToString(), out x);
-    x -= 1;
-}
+//bool canMove = king.IsMovePossible(startCoord, finishCoord);
+bool canMove = queen.IsMovePossible(startCoord, finishCoord);
 
-bool canMove = king.IsMovePossible(startCoord, finishCoord);
 if (canMove)
     Console.WriteLine("Yes");
 else

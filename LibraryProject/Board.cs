@@ -12,5 +12,14 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
             White,
             Black
         }
+
+        public void EnterCoordinates(out string coords, out int x, out int y)
+        {
+            coords = Console.ReadLine();
+
+            y = (int)Enum.Parse<Board.VerticalF>(coords[0].ToString());
+            bool isNum = int.TryParse(coords[1].ToString(), out x);
+            x -= 1;
+        }
     };
 }

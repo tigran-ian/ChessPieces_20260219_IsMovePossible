@@ -6,15 +6,12 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
     internal class King
     {
-        //public int xCoord;
-        //public int yCoord;
+        string name;
 
-        //public King(int x, int y)
-        //{
-        //    xCoord = x;
-        //    yCoord = y;
-        //}
-
+        public King(string pieceName)
+        {
+            name = pieceName;
+        }
         public struct Coords
         {
             public int X;
@@ -30,6 +27,7 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
         {
             int coefficentX = Math.Abs(startCoords.X - endCoords.X);
             int coefficentY = Math.Abs(startCoords.Y - endCoords.Y);
+
             if (coefficentX == 1 && coefficentY == 1
                 || coefficentX == 1 && coefficentY == 0
                 || coefficentX == 0 && coefficentY == 1)
@@ -37,6 +35,11 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
             else
                 return false;
             ;
+        }
+
+        public void PrintName(string name)
+        {
+            Console.WriteLine($"The selected piece name is: {name}");
         }
     }
 }

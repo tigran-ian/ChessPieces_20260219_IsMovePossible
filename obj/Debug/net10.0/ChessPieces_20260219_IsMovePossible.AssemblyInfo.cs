@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChessPieces_20260219_IsMovePossible")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6309d37257dec66d1f8b629ef9ffb74b2222481b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67556d78a216bcce0d3aad42f881b134e8d30152")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChessPieces_20260219_IsMovePossible")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChessPieces_20260219_IsMovePossible")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
