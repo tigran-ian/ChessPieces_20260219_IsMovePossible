@@ -13,3 +13,18 @@ D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Deb
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.genruntimeconfig.cache
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ref\ChessPieces_20260219_IsMovePossible.dll
 D:\Full Stack .NET development\Chess\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.sourcelink.json
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.AssemblyInfoInputs.cache
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.AssemblyInfo.cs
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.csproj.CoreCompileInputs.cache
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.sourcelink.json
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.dll
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\refint\ChessPieces_20260219_IsMovePossible.dll
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.pdb
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\bin\Debug\net10.0\ChessPieces_20260219_IsMovePossible.exe
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\bin\Debug\net10.0\ChessPieces_20260219_IsMovePossible.deps.json
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\bin\Debug\net10.0\ChessPieces_20260219_IsMovePossible.runtimeconfig.json
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\bin\Debug\net10.0\ChessPieces_20260219_IsMovePossible.dll
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\bin\Debug\net10.0\ChessPieces_20260219_IsMovePossible.pdb
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ChessPieces_20260219_IsMovePossible.genruntimeconfig.cache
+C:\Users\tagin\source\repos\ChessPieces_20260219_IsMovePossible\obj\Debug\net10.0\ref\ChessPieces_20260219_IsMovePossible.dll

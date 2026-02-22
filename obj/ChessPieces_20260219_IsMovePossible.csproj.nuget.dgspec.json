@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj": {}
+    "C:\\Users\\tagin\\source\\repos\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj": {}
   },
   "projects": {
-    "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj": {
+    "C:\\Users\\tagin\\source\\repos\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj",
+        "projectUniqueName": "C:\\Users\\tagin\\source\\repos\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj",
         "projectName": "ChessPieces_20260219_IsMovePossible",
-        "projectPath": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj",
+        "projectPath": "C:\\Users\\tagin\\source\\repos\\ChessPieces_20260219_IsMovePossible\\ChessPieces_20260219_IsMovePossible.csproj",
         "packagesPath": "C:\\Users\\tagin\\.nuget\\packages\\",
-        "outputPath": "D:\\Full Stack .NET development\\Chess\\ChessPieces_20260219_IsMovePossible\\obj\\",
+        "outputPath": "C:\\Users\\tagin\\source\\repos\\ChessPieces_20260219_IsMovePossible\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
