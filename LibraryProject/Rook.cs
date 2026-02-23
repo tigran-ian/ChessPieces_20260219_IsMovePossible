@@ -1,23 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Xml.Linq;
 
 namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
-    internal class Queen : Piece
+    internal class Rook : Piece
     {
-        public string name;
-        public Queen(string pieceName)
+        string name;
+        public Rook(string pieceName)
         {
             name = pieceName;
         }
+
         public override bool IsMovePossible(Coords startCoords, Coords endCoords)
         {
             int coefficentX = Math.Abs(endCoords.X - startCoords.X);
             int coefficentY = Math.Abs(endCoords.Y - startCoords.Y);
 
-            if (coefficentX == 0 || coefficentY == 0 || coefficentX == coefficentY)
+            if (coefficentX == 0 || coefficentY == 0)
                 return true;
             else
                 return false;

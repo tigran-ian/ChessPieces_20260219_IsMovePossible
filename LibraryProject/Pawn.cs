@@ -1,24 +1,28 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using static ChessPieces_20260219_IsMovePossible.LibraryProject.Piece;
 
 namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
-    public class King : Piece
+    public class Pawn : Piece
     {
         string name;
-        public King(string pieceName)
+        string color;
+
+
+        public Pawn(string pieceName, string pieceColor)
         {
             name = pieceName;
+            color = pieceColor;
         }
-        
+
         public override bool IsMovePossible(Coords startCoords, Coords endCoords)
         {
-            int coefficentX = Math.Abs(endCoords.X - startCoords.X);
-            int coefficentY = Math.Abs(endCoords.Y - startCoords.Y);
+            int coefficentX = endCoords.X - startCoords.X;
+            int coefficentY = endCoords.Y - startCoords.Y;
 
-            if (coefficentX <= 1 && coefficentY <= 1 && coefficentX != 0 || coefficentY != 0)
+            if (coefficentX == coefficentY)
                 return true;
             else
                 return false;
