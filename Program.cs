@@ -39,11 +39,11 @@ switch (pieceName)
     case "Knight":
         piece = new Knight(pieceName);
         break;
-    case "Pawn":
-        Console.WriteLine("Please enter piece color: ");
-        string pieceColor = Console.ReadLine();
-        piece = new Pawn(pieceName, pieceColor);
-        break;
+    //case "Pawn":
+    //    Console.WriteLine("Please enter piece color: ");
+    //    string pieceColor = Console.ReadLine();
+    //    piece = new Pawn(pieceName, pieceColor);
+    //    break;
     default:
         break;
 }
