@@ -22,10 +22,28 @@ namespace ChessPieces_20260219_IsMovePossible.LibraryProject
             int coefficentX = endCoords.X - startCoords.X;
             int coefficentY = endCoords.Y - startCoords.Y;
 
-            if (coefficentX == coefficentY)
-                return true;
-            else
-                return false;
+            if(name == "White")
+            {
+                if (startCoorts.X == 1 && coefficentX <= 2)
+                    return true;
+                else if(startCoorts.X != 1 && coefficentX == 1)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+            else if(name == "Black")
+            {
+                if (startCoorts.X == 7 && coefficentX <= -2)
+                    return true;
+                else if (startCoorts.X != 7 && coefficentX == -1)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
         }
     }
 }
