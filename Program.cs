@@ -28,7 +28,7 @@ switch (pieceName)
         piece = new King(pieceName);
         break;
     case "Queen":
-        piece = new King(pieceName);
+        piece = new Queen(pieceName);
         break;
     case "Rook":
         piece = new Rook(pieceName);
