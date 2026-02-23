@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
-    internal class Knight : Piece
+    public class Knight : Piece
     {
         string name;
 

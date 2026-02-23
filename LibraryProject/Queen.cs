@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
-    internal class Queen : Piece
+    public class Queen : Piece
     {
         public string name;
         public Queen(string pieceName)

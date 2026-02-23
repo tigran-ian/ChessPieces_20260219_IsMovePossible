@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChessPieces_20260219_IsMovePossible.LibraryProject
 {
-    internal class Rook : Piece
+    public class Rook : Piece
     {
         string name;
         public Rook(string pieceName)
